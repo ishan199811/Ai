@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.Ai.AiBackend.service.AiService;
-@CrossOrigin(origins = "http://localhost:3000") // Allow requests from React
+@CrossOrigin(origins = "*") // Allow all origins// Allow requests from React
 @RestController
 @RequestMapping("/api")
 public class AiController {
